@@ -1,3 +1,8 @@
+## Useful resources
+
+Useful rollup plugins can be found [here](https://github.com/rollup/plugins).
+
+
 ## Getting started
 
 Clone this repository and install its dependencies:
