@@ -6,9 +6,12 @@
   "browser": "dist/hello.umd.js",
   "dependencies": {},
   "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "@rollup/plugin-commonjs": "^15.0.0",
     "@rollup/plugin-node-resolve": "^9.0.0",
     "@rollup/plugin-typescript": "^6.0.0",
+    "husky": "^4.3.0",
     "rollup": "^2.27.1",
     "ts-node": "^9.0.0",
     "tslib": "^2.0.1",
@@ -22,5 +25,10 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
 }
