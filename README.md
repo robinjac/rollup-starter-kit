@@ -26,6 +26,16 @@ npm install
 
 `npm test` builds the library, then tests it.
 
+`npm run release` runs [standard-version](https://github.com/conventional-changelog/standard-version) to generate a changelog based on the commit history.
+
+
+## Commit format
+
+* [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/)
+* [commitlint](https://github.com/conventional-changelog/commitlint) is run before each commit using husky to enforce the correct commit format.
+* [@commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional) as a ruleset for commitlint. See `commitlint.config.js` for modifications to the
+standard ruleset.
+
 ## License
 
 [MIT](LICENSE).
