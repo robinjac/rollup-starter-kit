@@ -6,6 +6,6 @@ interface HelloWorld {
 
 const message: HelloWorld = {hello: "hello", world: "world"};
 
-export default function hello() {
+export default function hello(): string {
     return `${message.hello} ${message.world}`;
 }

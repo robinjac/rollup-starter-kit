@@ -28,6 +28,8 @@ npm install
 
 `npm run release` runs [standard-version](https://github.com/conventional-changelog/standard-version) to generate a changelog based on the commit history.
 
+`npm run lint` lint project with typescript enabled eslint.
+
 
 ## Commit format
 

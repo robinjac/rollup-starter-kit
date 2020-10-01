@@ -1,3 +1,4 @@
+/* eslint-disable */
 const assert = require("assert");
 const hello = require("..").default;
 
